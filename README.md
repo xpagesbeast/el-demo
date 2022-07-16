@@ -8,7 +8,7 @@ Non programmers build content for web pages, alerts, and links for a site.  What
 
 This repo has some building blocks to get that done.  I am a fan of JSF Expression Language.  What if the content creator can use #{field.field...} syntax for place holders in the content for actual data?
 
-The benefit is when content managers want to reword and use other fields, we do not have to track the token / placeholders in the content api.  We simply search the object for it.
+The benefit is when content managers want to reword and use other existing fields of domain objects, we do not have to make code changes to map the token to some data and avoid a synchronized deployments.  What if we can just resolve the expression to a Java Class Object field?
 
 ## Overview:
 
