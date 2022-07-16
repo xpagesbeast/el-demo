@@ -1,5 +1,11 @@
 # Expression Language like variant demo
 
+## Tech Stack
+Maven
+Java
+Spring Expression Language
+RegEx
+
 ## Use Case : Allow content creators add placeholders for actual contextual data.
 
 Given a UI that uses a Content Service API to get formatted json for web page content.  The Content API aggregates multiple systems to get content for the web page.  One of the Content Service backend providers is a content manager system.
