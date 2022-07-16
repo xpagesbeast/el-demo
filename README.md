@@ -1,6 +1,6 @@
 # Expression Language like variant demo
 
-## Use Case : Solution uses a content manager
+## Use Case : Allow content creators add placeholders for actual contextual data.
 
 There is a UI that uses a Content API to get formatted json for a web page.  The Content API aggregates multiple systems to get content for the web page.  One of the backend dependencies for is a content management system.
 
