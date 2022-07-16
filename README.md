@@ -12,18 +12,18 @@ The benefit is when content managers want to reword and use other fields, we do 
 
 ## Overview:
 
-We have a Object called Vehicle and it has fields and another Object.
-We use #{xxxxx} for place holders in the content.  These are the field names in the Object.
+<p>We have a Object called Vehicle and it has fields and another Object.</p>
+<p>We use #{xxxxx} for place holders in the content.  These are the field names in the Object.</p>
 
 ### Output
-"The vehicle is #{color} and it was designed in the year #{year}.  We started shipping it in #{buildDates.start}. This one does not #{exist} and should come back."
+<p>"The vehicle is #{color} and it was designed in the year #{year}.  We started shipping it in #{buildDates.start}. This one does not #{exist} and should come back."</p>
 
-After running the content becomes:
-"The vehicle is Black and it was designed in the year 2016.  We started shipping it in July, 16 2022. This one does not #{exist} and should come back."
+<p>After running the content becomes:</p>
+<p>"The vehicle is Black and it was designed in the year 2016.  We started shipping it in July, 16 2022. This one does not #{exist} and should come back."</p>
 
-#{color} becomes 'Black'
-#{year} becomes '2016'
-#{buildDates.start} becomes 'July, 16 2022'
+<p>#{color} becomes 'Black'</p>
+<p>#{year} becomes '2016'</p>
+<p>#{buildDates.start} becomes 'July, 16 2022'</p>
 
-Notice #{exist}, the Vehicle object does not have such a field so it is passed through.
-Notice Vehicle has another object called BuildDates.java which has two fields 'start' and 'end' which are java.util.Date types.
+<p>Notice #{exist}, the Vehicle object does not have such a field so it is passed through.</p>
+<p>Notice Vehicle has another object called BuildDates.java which has two fields 'start' and 'end' which are java.util.Date types.</p>
