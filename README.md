@@ -1,0 +1,2 @@
+# el-demo
+Examples transposing expression language type syntax with Spring Expression language.  For content creators using something like Adobe Enterprise Content Manager, can use expression language in the content and a API service to transpose it with a object variable.  The benefit is not having to have a static 'mapping' in a service API and a content manager.  The when POJOs are extended with new properties, they can simply be referenced.
