@@ -12,10 +12,10 @@ The benefit is when content managers want to reword and use other fields, we do 
 
 ## Overview:
 
-A object our content service interacts with is Vehicle.
-We use #{xxxxx} for place holders.  These are the fields in the object.
+We have a Object called Vehicle and it has fields and another Object.
+We use #{xxxxx} for place holders in the content.  These are the field names in the Object.
 
-### Content
+### Output
 "The vehicle is #{color} and it was designed in the year #{year}.  We started shipping it in #{buildDates.start}. This one does not #{exist} and should come back."
 
 After running the content becomes:
