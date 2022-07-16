@@ -2,7 +2,7 @@
 
 ## Use Case : Allow content creators add placeholders for actual contextual data.
 
-There is a UI that uses a Content API to get formatted json for a web page.  The Content API aggregates multiple systems to get content for the web page.  One of the backend dependencies for is a content management system.
+Given a UI that uses a Content Service API to get formatted json for web page content.  The Content API aggregates multiple systems to get content for the web page.  One of the backend dependencies for is a content management system.
 
 Non programmers build content for web pages, alerts, and link.  What if the content manager can add tokens to get dynamic data inserted at run time?
 
