@@ -6,7 +6,7 @@ Given a UI that uses a Content Service API to get formatted json for web page co
 
 Non programmers build content for web pages, alerts, and links for a site.  What if the content manager can add tokens to get dynamic data inserted at run time?
 
-This repo has some building blocks to get that done.  I am a fan of JSF Expression Language.  Instructed the content creator to use #{field.field...} syntax for place holders of data.
+This repo has some building blocks to get that done.  I am a fan of JSF Expression Language.  What if the content creator can use #{field.field...} syntax for place holders in the content for actual data?
 
 The benefit is when content managers want to reword and use other fields, we do not have to track the token / placeholders in the content api.  We simply search the object for it.
 
