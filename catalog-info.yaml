@@ -2,9 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: el-demo
+  description: |
+    Demo project to quickly get a expression language syntax tokenizer for dynamic content
+  links:
+    - title: Website
+      url: http://backstage.io
   annotations:
     github.com/project-slug: xpagesbeast/el-demo
 spec:
   type: other
-  lifecycle: unknown
   owner: xpagesbeast
+  lifecycle: experimental
